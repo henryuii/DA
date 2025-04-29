@@ -1,0 +1,12 @@
+../Core/Src/pn532.c:16:6:pn532_init	2
+../Core/Src/pn532.c:38:10:pn532_get_firmware_version	6
+../Core/Src/pn532.c:68:6:pn532_sam_config	7
+../Core/Src/pn532.c:95:6:pn532_read_passive_target	8
+../Core/Src/pn532.c:130:6:pn532_get_uid	2
+../Core/Src/pn532.c:141:6:pn532_mifare_auth	8
+../Core/Src/pn532.c:179:6:pn532_mifare_read_block	7
+../Core/Src/pn532.c:209:6:pn532_mifare_write_block	7
+../Core/Src/pn532.c:239:13:pn532_read_ack	4
+../Core/Src/pn532.c:262:13:pn532_write_command	3
+../Core/Src/pn532.c:299:13:pn532_read_response	15
+../Core/Src/pn532.c:375:16:pn532_calculate_checksum	2

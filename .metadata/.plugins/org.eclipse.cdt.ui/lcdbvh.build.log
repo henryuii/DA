@@ -1,0 +1,20 @@
+15:58:03 **** Incremental Build of configuration Debug for project lcdbvh ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/LCD1602.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/LCD1602.d" -MT"Core/Src/LCD1602.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/LCD1602.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/LCD1602.c:33:8: error: unknown type name 'TIM_HandleTypeDef'
+   33 | extern TIM_HandleTypeDef timer;
+      |        ^~~~~~~~~~~~~~~~~
+../Core/Src/LCD1602.c: In function 'delay':
+../Core/Src/LCD1602.c:36:9: warning: implicit declaration of function '__HAL_TIM_SET_COUNTER' [-Wimplicit-function-declaration]
+   36 |         __HAL_TIM_SET_COUNTER(&timer, 0);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/LCD1602.c:37:16: warning: implicit declaration of function '__HAL_TIM_GET_COUNTER' [-Wimplicit-function-declaration]
+   37 |         while (__HAL_TIM_GET_COUNTER(&timer) < us);
+      |                ^~~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/LCD1602.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+15:58:04 Build Failed. 3 errors, 2 warnings. (took 415ms)
+

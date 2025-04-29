@@ -1,0 +1,10 @@
+23:41:13 **** Incremental Build of configuration Debug for project BUZ1 ****
+make -j12 all 
+arm-none-eabi-size  BUZ1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7908	     12	   1644	   9564	   255c	BUZ1.elf
+Finished building: default.size.stdout
+ 
+
+23:41:13 Build Finished. 0 errors, 0 warnings. (took 329ms)
+

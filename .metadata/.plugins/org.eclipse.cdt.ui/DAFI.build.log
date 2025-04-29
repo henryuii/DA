@@ -1,0 +1,10 @@
+23:46:13 **** Incremental Build of configuration Debug for project DAFI ****
+make -j12 all 
+arm-none-eabi-size  DAFI.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9176	     12	   1724	  10912	   2aa0	DAFI.elf
+Finished building: default.size.stdout
+ 
+
+23:46:13 Build Finished. 0 errors, 0 warnings. (took 197ms)
+

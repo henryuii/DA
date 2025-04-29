@@ -1,0 +1,7 @@
+../Core/Src/main.c:82:6:checkpass	4
+../Core/Src/main.c:130:5:main	9
+../Core/Src/main.c:226:6:SystemClock_Config	3
+../Core/Src/main.c:266:13:MX_I2C1_Init	2
+../Core/Src/main.c:300:13:MX_GPIO_Init	1
+../Core/Src/main.c:353:6:HAL_GPIO_EXTI_Callback	50
+../Core/Src/main.c:501:6:Error_Handler	1

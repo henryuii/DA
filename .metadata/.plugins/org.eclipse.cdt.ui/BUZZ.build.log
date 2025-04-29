@@ -1,0 +1,10 @@
+17:42:09 **** Incremental Build of configuration Debug for project buzz ****
+make -j12 all 
+arm-none-eabi-size  buzz.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7156	     12	   1644	   8812	   226c	buzz.elf
+Finished building: default.size.stdout
+ 
+
+17:42:10 Build Finished. 0 errors, 0 warnings. (took 200ms)
+

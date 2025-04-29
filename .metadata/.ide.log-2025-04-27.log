@@ -1,0 +1,10 @@
+2025-04-28 02:10:37,159 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x221,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-28 02:10:38,588 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-28 02:10:38,588 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-28 02:10:55,217 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-28 02:10:55,217 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-28 02:10:58,859 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-28 02:10:58,859 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-28 02:10:58,860 [WARN] IP:2251 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-28 02:10:58,860 [WARN] IP:2251 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-28 02:11:25,848 [INFO] Gpio:277 - dependency for GPIO [I2C1, RCC, SPI1, SYS, USART1]

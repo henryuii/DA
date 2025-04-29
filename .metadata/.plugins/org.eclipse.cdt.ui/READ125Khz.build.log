@@ -1,0 +1,10 @@
+22:01:22 **** Incremental Build of configuration Debug for project READ125Khz ****
+make -j12 all 
+arm-none-eabi-size  READ125Khz.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16976	     12	   1836	  18824	   4988	READ125Khz.elf
+Finished building: default.size.stdout
+ 
+
+22:01:23 Build Finished. 0 errors, 0 warnings. (took 253ms)
+

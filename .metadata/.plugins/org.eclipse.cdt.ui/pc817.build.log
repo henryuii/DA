@@ -1,0 +1,10 @@
+18:45:22 **** Incremental Build of configuration Debug for project pc817 ****
+make -j12 all 
+arm-none-eabi-size  pc817.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11160	     24	   1744	  12928	   3280	pc817.elf
+Finished building: default.size.stdout
+ 
+
+18:45:23 Build Finished. 0 errors, 0 warnings. (took 300ms)
+

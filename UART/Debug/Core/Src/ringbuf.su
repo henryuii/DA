@@ -1,0 +1,5 @@
+../Core/Src/ringbuf.c:12:9:RINGBUF_Init	24	static
+../Core/Src/ringbuf.c:29:9:RINGBUF_Put	24	static
+../Core/Src/ringbuf.c:54:9:RINGBUF_Get	16	static
+../Core/Src/ringbuf.c:70:9:RINGBUF_Clear	16	static
+../Core/Src/ringbuf.c:86:9:RINGBUF_GetFill	16	static
